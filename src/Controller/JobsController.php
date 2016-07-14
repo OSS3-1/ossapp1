@@ -71,8 +71,9 @@ class JobsController extends AppController
             $start_date = new \DateTime($job->start); // get start date/time from db
 						$end_date  = new \DateTime(date('Y-m-d H:i:s')); // get actual date/time 
 						$job->end = $end_date; // set de end date/time
+						
 						$interval = date_diff($start_date,$end_date); //get the time of the task
-							
+						$job->time = $interval; //set the
 						echo $interval->format('%h:%i:%s'); //format time in min.
 						
             die();
