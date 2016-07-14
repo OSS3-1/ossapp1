@@ -1,0 +1,60 @@
+// NAVBAR
+.navbar-default {
+	background-image: url(../img/nav/menu-bg.jpg);
+	padding: 20px 0 0 0 ;
+	@include media("≥phone", "≤tablet") {
+			padding: 20px 0 ;
+		}
+	border: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    margin-top: -1px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0 0 0 20px;
+    font-size: 18px;
+    line-height: 20px
+}
+.navbar-nav-yellow {
+	background-color: $color1;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #323232;
+    @include transition(350ms);
+    font-size: 11px;
+    @include media("≥phone", "≤tablet") {
+			font-size: 9px;
+		}
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: white;
+	background-color: #462f25;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: white;
+	background-color: #462f25;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle {
+	background-color: $color1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #462f25;
+}
+
+.register{
+	margin-top: 20px;
+	background-image: url(../img/nav/register-bg.jpg);
+	color: white;
+	padding: 30px 0;
+	p{
+		font-size: 20px;
+	}
+	.form-control {
+		color: black;
+		background: rgba(255, 255, 255, 0.35);
+	}
+}

@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'media-queries.scss';
+
+$breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px);
+
+body {
+	font-family: $font1;
+	background-color: white;
+	padding-top: 235px;
+  /* Inclusive and exclusive operators for a finer control over the intervals */
+	@include media("retina2x", ">desktop") {
+		background-color: white;
+	}
+	@include media(">tablet","<desktop") {
+		background-color: white;
+	}
+	/* Use ligatured operators if you fancy a slicker declaration */
+	@include media("≥phone", "≤tablet") {
+		padding-top: 100px;
+	}
+}
+.no-padding{
+	padding: 0;
+}
+@import 'navbar';
+
+.pleca{
+	position: absolute;
+	z-index: 10;
+	right: 0
+}

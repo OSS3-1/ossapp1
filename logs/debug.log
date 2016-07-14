@@ -1,0 +1,558 @@
+2016-07-12 18:32:26 Notice: Notice (8): Undefined variable: job in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Jobs/jobslist.ctp, line 26]
+Request URL: /jobs/jobslist
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/jobslist.ctp, line 26
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-12 18:32:41 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Jobs/jobslist.ctp, line 28]
+Request URL: /jobs/jobslist
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/jobslist.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-12 18:33:10 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Jobs/jobslist.ctp, line 28]
+Request URL: /jobs/jobslist
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/jobslist.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-12 20:18:27 Notice: Notice (8): Undefined variable: i in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Jobs/jobslist.ctp, line 40]
+Request URL: /jobs/jobslist?limit=20
+Referer URL: http://ossapp:8888/jobs/jobslist?limit=10
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/jobslist.ctp, line 40
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:03:28 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 13]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:43:02 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 15]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 15
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 17:57:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /groups/employeeList/1
+Referer URL: http://ossapp:8888/groups/employeeWelcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:46:44 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:46:44 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:46:59 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:46:59 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:00 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:00 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:23 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:23 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:24 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:47:24 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 10]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:49:01 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 1]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-13 22:49:23 Notice: Notice (8): Undefined index: busy in [/Users/rich/Dropbox/Works/Web/oss/src/Template/Groups/employee_list.ctp, line 1]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 13:50:17 Notice: Notice (8): Undefined variable: date_a in [/Users/rich/Dropbox/Works/Web/oss/src/Controller/JobsController.php, line 74]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 74
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 13:50:17 Notice: Notice (8): Undefined variable: date_b in [/Users/rich/Dropbox/Works/Web/oss/src/Controller/JobsController.php, line 74]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 74
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 14:04:14 Notice: Notice (8): Undefined variable: time in [/Users/rich/Dropbox/Works/Web/oss/src/Controller/JobsController.php, line 74]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 74
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 14:12:28 Notice: Notice (8): Undefined variable: differfence in [/Users/rich/Dropbox/Works/Web/oss/src/Controller/JobsController.php, line 75]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 14:12:28 Notice: Notice (8): Undefined variable: differfence in [/Users/rich/Dropbox/Works/Web/oss/src/Controller/JobsController.php, line 76]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
