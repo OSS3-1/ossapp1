@@ -1,5 +1,3 @@
- <?= $current_user['busy'] ?>
- 
 <section class="welcome-employee">
 	<div class="container">
 		<div class="row">		
@@ -20,7 +18,11 @@
 											    <strong>Create by:</strong> <?= $job->create_by ?><br>
 											    <strong>Approved by:</strong> <?= $job->approved_by ?>
 										    </p>
-								    		<a href="#" class="btn btn-primary btn-sm">Take this job</a>
+								    		<?= $this->Form->create(); ?>
+								    			<?= $this->Form->input('job'); ?>
+								    			<?= $this->Form->input('job2'); ?>
+								    			<?= $this->Form->button(__('Take this job'), ['class' => 'btn btn-primary btn-sm']) ?>
+												<?= $this->Form->end() ?>
 										  </div>
 								  	</div>
 									<?php endif; ?>

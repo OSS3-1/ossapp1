@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Event\Event;
 /**
  * Groups Controller
  *
@@ -38,6 +38,20 @@ class GroupsController extends AppController
     	Employee functions
     */
     public function employeeWelcome(){ //get list of groups
+	    
+	    
+	    //if user work on an order denied access and redirect
+/*
+	    $this->request->session()->read('Auth.User.busy');//Get user stats from session 
+	    $actual_job = $this->Auth->user('busy');
+	    
+	    if($actual_job != 0){
+		    return $this->redirect(['controller' => 'Jobs', 'action' => 'actualJob', $actual_job]);
+	    }
+*/
+	    //
+	    
+	    
 	    $this->set('groups', $this->paginate($this->Filter->getFilterQuery()));
       $this->set('_serialize', ['groups']);
     }
@@ -46,6 +60,18 @@ class GroupsController extends AppController
         $group = $this->Groups->get($id, [
             'contain' => ['Dealerships.Jobs.Services'] //get the dealership jobs lists
         ]);
+        
+        $this->loadModel('Users');// Get Users Model
+        echo $actual_user =  $this->Auth->user('id');// Set actual user ID
+        $user = $this->Users->get($actual_user);// Retrieve actual login user info
+        
+        
+        
+        if ($this->request->is(['patch', 'post', 'put'])) {
+					$user->busy = $this->request->data['job'];
+					$this->Users->save($user);
+        }
+        
         $this->set('group', $group);
         $this->set('_serialize', ['group']);
     }

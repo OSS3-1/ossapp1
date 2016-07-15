@@ -47,6 +47,10 @@ class JobsTable extends Table
             'foreignKey' => 'service_id',
             'joinType' => 'INNER'
         ]);
+        $this->belongsTo('Users', [
+            'foreignKey' => 'user_id',
+            'joinType' => 'INNER'
+        ]);
     }
 
     /**
@@ -94,6 +98,7 @@ class JobsTable extends Table
         $rules->add($rules->existsIn(['status_id'], 'Statuses'));
         $rules->add($rules->existsIn(['dealership_id'], 'Dealerships'));
         $rules->add($rules->existsIn(['service_id'], 'Services'));
+        $rules->add($rules->existsIn(['user_id'], 'Users'));
         return $rules;
     }
 }

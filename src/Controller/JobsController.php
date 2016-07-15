@@ -11,7 +11,13 @@ use App\Controller\AppController;
  */
 class JobsController extends AppController
 {
-
+		 public function isAuthorized($user){
+		    // All registered users can add articles
+		    if ($this->request->action === 'actualJob') {
+		        return true;
+		    }
+		    return parent::isAuthorized($user);
+		}
     /**
      * Helpers
      *
@@ -66,18 +72,18 @@ class JobsController extends AppController
         $job = $this->Jobs->get($id, [
             'contain' => []
         ]);
+        echo $userId = $this->Auth->user('busy');
         if ($this->request->is(['patch', 'post', 'put'])) {
             $job = $this->Jobs->patchEntity($job, $this->request->data);
+            
             $start_date = new \DateTime($job->start); // get start date/time from db
 						$end_date  = new \DateTime(date('Y-m-d H:i:s')); // get actual date/time 
-						$job->end = $end_date; // set de end date/time
-						
 						$interval = date_diff($start_date,$end_date); //get the time of the task
-						$job->time = $interval; //set the
-						echo $interval->format('%h:%i:%s'); //format time in min.
+						$total_time = $interval->format('%H:%I:%S'); //format time in Hours:Min:Sec
 						
-            die();
-            //$job->stop = date('Y-m-d H:i:s'); //set start date/time of the job order
+						$job->end = date('Y-m-d H:i:s'); //set de end date/time	
+						$job->time = $total_time; //set the complete time
+
             if ($this->Jobs->save($job)) {
                 $this->Flash->success(___('the job has been saved'), ['plugin' => 'Alaxos']);
                 return $this->redirect(['action' => 'view', $job->id]);
@@ -88,7 +94,16 @@ class JobsController extends AppController
         $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
         $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
         $services = $this->Jobs->Services->find('list', ['limit' => 200]);
-        $this->set(compact('job', 'statuses', 'dealerships', 'services'));
+        $this->set(compact('job', 'statuses', 'users', 'dealerships', 'services'));
+        $this->set('_serialize', ['job']);
+    }
+    
+    public function actualJob($id = null)
+    {
+        $job = $this->Jobs->get($id, [
+            'contain' => ['Statuses', 'Dealerships', 'Services','Users']
+        ]);
+        $this->set('job', $job);
         $this->set('_serialize', ['job']);
     }
     
@@ -160,7 +175,9 @@ class JobsController extends AppController
         $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
         $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
         $services = $this->Jobs->Services->find('list', ['limit' => 200]);
-        $this->set(compact('job', 'statuses', 'dealerships', 'services'));
+        $users = $this->Jobs->Users->find('list', ['limit' => 200]);
+        
+        $this->set(compact('job', 'statuses', 'dealerships', 'services','users'));
         $this->set('_serialize', ['job']);
     }
 

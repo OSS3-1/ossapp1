@@ -26,7 +26,7 @@ class UsersTable extends Table
         parent::initialize($config);
 
         $this->table('users');
-        $this->displayField('id');
+        $this->displayField('username');
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
@@ -36,6 +36,10 @@ class UsersTable extends Table
         $this->belongsTo('Dealerships', [
             'foreignKey' => 'dealership_id',
             'joinType' => 'INNER'
+        ]);
+        
+        $this->hasMany('Jobs', [
+            'foreignKey' => 'user_id'
         ]);
     }
 

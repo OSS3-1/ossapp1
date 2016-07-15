@@ -1,10 +1,10 @@
 <?php
 	$date_a = new DateTime('2016-07-14 14:17:39');
-	$date_b = new DateTime(date('Y-m-d H:i:s'));
+	$date_b = new DateTime('2016-07-14 15:30:40');
 	
 	$interval = date_diff($date_a,$date_b);
 	
-	echo $interval->format('%h:%i');
+	echo $interval->format('%H:%I:%S');
 ?>
 
 <div class="jobs index">

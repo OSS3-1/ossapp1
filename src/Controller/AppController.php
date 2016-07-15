@@ -58,7 +58,7 @@ class AppController extends Controller
         ]);
         
     }
-    
+
     public function isAuthorized($user)
 		{
 	    // Admin can access every action

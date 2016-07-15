@@ -1,4 +1,4 @@
-
+<?php echo $current_user['busy'] ?>
 <div class="jobs form">
     
     <fieldset>
@@ -16,9 +16,23 @@
             echo $this->AlaxosForm->create($job, ['class' => 'form-horizontal', 'role' => 'form', 'novalidate' => 'novalidate']);
             
             echo '<div class="form-group">';
+            echo $this->AlaxosForm->label('actual_job_id', __('is busy?'), ['class' => 'col-sm-2 control-label']);
+            echo '<div class="col-sm-5">';
+            echo $this->AlaxosForm->input('actual_job_id', ['label' => false, 'class' => 'form-control']);
+            echo '</div>';
+            echo '</div>';
+            
+            echo '<div class="form-group">';
             echo $this->AlaxosForm->label('status_id', __('status_id'), ['class' => 'col-sm-2 control-label']);
             echo '<div class="col-sm-5">';
             echo $this->AlaxosForm->input('status_id', ['options' => $statuses, 'label' => false, 'class' => 'form-control']);
+            echo '</div>';
+            echo '</div>';
+            
+            echo '<div class="form-group">';
+            echo $this->AlaxosForm->label('user_id', __('User'), ['class' => 'col-sm-2 control-label']);
+            echo '<div class="col-sm-5">';
+            echo $this->AlaxosForm->input('user_id', ['options' => $users,'label' => false, 'class' => 'form-control']);
             echo '</div>';
             echo '</div>';
             

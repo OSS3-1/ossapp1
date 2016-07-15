@@ -556,3 +556,674 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-07-14 15:53:38 Notice: Notice (8): Undefined variable:  in [/Users/rich/Documents/ossapp/src/Controller/JobsController.php, line 79]
+Request URL: /jobs/endJob/6
+Referer URL: http://ossapp:8888/jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:06:06 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:08:48 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:08:50 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:08:51 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:08:52 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:08:55 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:13:34 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:13:39 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:13:49 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:13:55 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:15:04 Notice: Notice (8): Undefined index: actual_job_id in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 1]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 1
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:19:26 Notice: Notice (8): Undefined variable: current_user in [/Users/rich/Documents/ossapp/src/Controller/JobsController.php, line 69]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\JobsController::endJob() - APP/Controller/JobsController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:31:26 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 35]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 35
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:34:01 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/end_job.ctp, line 35]
+Request URL: /jobs/endJob/6
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/end_job.ctp, line 35
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:37:13 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:39:08 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:39:16 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:40:58 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:41:00 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:43:13 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:43:51 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:43:53 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:44:05 Notice: Notice (8): Undefined variable: users in [/Users/rich/Documents/ossapp/src/Template/Jobs/add.ctp, line 28]
+Request URL: /jobs/add
+Referer URL: http://ossapp:8888/jobs
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Jobs/add.ctp, line 28
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:51:55 Notice: Notice (8): Undefined variable: job_status in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 41]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeWelcome() - APP/Controller/GroupsController.php, line 41
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:55:48 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_welcome.ctp, line 13]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_welcome.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 16:59:41 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_welcome.ctp, line 13]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_welcome.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 17:01:03 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_welcome.ctp, line 13]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_welcome.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 17:13:05 Notice: Notice (8): Undefined variable: user in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 48]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeWelcome() - APP/Controller/GroupsController.php, line 48
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 17:13:05 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_welcome.ctp, line 13]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_welcome.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 17:25:35 Notice: Notice (8): Undefined variable: groups in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_welcome.ctp, line 13]
+Request URL: /employees/welcome
+Referer URL: http://ossapp:8888/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_welcome.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 18:38:52 Notice: Notice (8): Undefined variable: post in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employees/welcome
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 18:56:33 Notice: Notice (8): Array to string conversion in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 18:58:24 Notice: Notice (8): Trying to get property of non-object in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:00:08 Notice: Notice (8): Undefined variable: data in [/Users/rich/Documents/ossapp/src/Template/Groups/employee_list.ctp, line 21]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Groups/employee_list.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:01:16 Notice: Notice (8): Undefined index:  in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:01:20 Notice: Notice (8): Undefined index:  in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:04:20 Notice: Notice (8): Undefined index: Job in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:08:38 Notice: Notice (8): Undefined index: Job in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:08:56 Notice: Notice (8): Undefined offset: 0 in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:09:04 Notice: Notice (8): Undefined offset: 1 in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:09:28 Notice: Notice (8): Undefined offset: 1 in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:09:34 Notice: Notice (8): Undefined index: Job in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:10:11 Notice: Notice (8): Undefined index: Job in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:10:29 Notice: Notice (8): Undefined offset: 1 in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-07-14 19:10:37 Notice: Notice (8): Undefined offset: 0 in [/Users/rich/Documents/ossapp/src/Controller/GroupsController.php, line 71]
+Request URL: /employee/joblist/1
+Referer URL: http://ossapp:8888/employee/joblist/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\GroupsController::employeeList() - APP/Controller/GroupsController.php, line 71
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
