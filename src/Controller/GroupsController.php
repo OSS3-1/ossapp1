@@ -47,7 +47,7 @@ class GroupsController extends AppController
 	    
 	    if($actual_job != 0){
 		    return $this->redirect(['controller' => 'Jobs', 'action' => 'actualJob', $actual_job]);
-	    }
+	    } 
 */
 	    //
 	    
@@ -57,19 +57,22 @@ class GroupsController extends AppController
     }
     
     public function employeeList($id = null){ //get job list by group and delerships
+	    
         $group = $this->Groups->get($id, [
             'contain' => ['Dealerships.Jobs.Services'] //get the dealership jobs lists
         ]);
         
         $this->loadModel('Users');// Get Users Model
-        echo $actual_user =  $this->Auth->user('id');// Set actual user ID
+        $actual_user =  $this->Auth->user('id');// Set actual user ID
         $user = $this->Users->get($actual_user);// Retrieve actual login user info
         
         
-        
+ 
         if ($this->request->is(['patch', 'post', 'put'])) {
-					$user->busy = $this->request->data['job'];
-					$this->Users->save($user);
+					$user->busy = $this->request->data['job']; //set user status to busy and assign 
+					$this->Users->save($user);//save user data
+					$this->request->session()->write('Auth.User.busy', $this->request->data['job']);//Get user stats from session
+					return $this->redirect(['action' => 'employeeList', $id]);
         }
         
         $this->set('group', $group);
