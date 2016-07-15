@@ -19,7 +19,7 @@
 											    <strong>Approved by:</strong> <?= $job->approved_by ?>
 										    </p>
 								    		<?= $this->Form->create(); ?>
-								    			<?= $this->Form->input('job'); ?>
+								    			<?= $this->Form->input('job',['value'=>$job->id,'type'=>'hidden']); ?>
 								    			<?= $this->Form->button(__('Take this job'), ['class' => 'btn btn-primary btn-sm']) ?>
 												<?= $this->Form->end() ?>
 										  </div>

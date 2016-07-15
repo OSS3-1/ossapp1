@@ -1,80 +1,41 @@
 
-<div class="jobs view">
-	<h2><?php echo ___('job'); ?></h2>
-	
-	<div class="panel panel-default">
-		<div class="panel-heading">
-		<?php
-		echo $this->Navbars->actionButtons(['buttons_group' => 'view', 'model_id' => $job->id]);
-		?>
-		</div>
-		<div class="panel-body">
-			<dl class="dl-horizontal">
-			
-				<dt><?php echo __('Status'); ?></dt>
-				<dd>
-					<?php echo $job->has('status') ? $this->Html->link($job->status->name, ['controller' => 'Statuses', 'action' => 'view', $job->status->id]) : '' ?>
-				</dd>
-					
-				<dt><?php echo __('Dealership'); ?></dt>
-				<dd>
-					<?php echo $job->has('dealership') ? $this->Html->link($job->dealership->name, ['controller' => 'Dealerships', 'action' => 'view', $job->dealership->id]) : '' ?>
-				</dd>
-					
-				<dt><?php echo __('Service'); ?></dt>
-				<dd>
-					<?php echo $job->has('service') ? $this->Html->link($job->service->name, ['controller' => 'Services', 'action' => 'view', $job->service->id]) : '' ?>
-				</dd>
-					
-				<dt><?= ___('create_by'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->create_by);
+<section class="actual_job">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="panel panel-primary">
+				  <div class="panel-heading">
+				    <h3 class="panel-title"><?= ucwords($current_user['username'])?>, now currently working on this job order <i class="fa fa-cog fa-spin" aria-hidden="true"></i></h3>
+				  </div>
+				  <div class="panel-body">
+				    <p> Dealership: <strong><?php echo $job->has('dealership') ? $job->dealership->name : '' ?></strong></p>
+				    <p> Service: <strong><?=$job->service->name?></strong></p>
+				    <p> Work time:</p>
+				    <a href="#" class="btn btn-success disabled" style="font-size: 30px"><div id="timer"></div></a><br><br>
+				    <?= $this->Form->create(); ?>
+		    			<?= $this->Form->input('job',['value'=>$job->id, 'type'=>'hidden']); ?>
+		    			<?= $this->Form->button(__('End this job'), ['class' => 'btn btn-danger btn-lg']) ?>
+						<?= $this->Form->end() ?>
+						
+						<?php 
+							$start_date = new \DateTime($job->start); // get start date/time from db
+							$end_date  = new \DateTime(date('Y-m-d H:i:s')); // get actual date/time 
+							$interval = date_diff($start_date,$end_date); //get the time of the task
+							$total_time = $interval->format('%H:%I:%S'); //format time in Hours:Min:Sec
+							
+							function timeToSeconds($time) {
+							        $t = explode(':', $time);
+							        return $t[0] * 3600 + $t[1] * 60 + $t[2];
+							}
+							
+							$seconds =  timeToSeconds($total_time);
+							$this->prepend('time', $seconds);// send variable to layout
 					?>
-				</dd>
-				
-				<dt><?= ___('approved_by'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->approved_by);
-					?>
-				</dd>
-				
-				<dt><?= ___('employee_assigned'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->employee_assigned);
-					?>
-				</dd>
-				
-				<dt><?= ___('start'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->start);
-					?>
-				</dd>
-				
-				<dt><?= ___('end'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->end);
-					?>
-				</dd>
-				
-				<dt><?= ___('time'); ?></dt>
-				<dd>
-					<?php 
-					echo h($job->time);
-					?>
-				</dd>
-				
-			</dl>
-			<?php 
-			echo $this->element('Alaxos.create_update_infos', ['entity' => $job], ['plugin' => 'Alaxos']);
-			?>
-			<div>
+				  </div>
+				</div>
+
 			</div>
 		</div>
 	</div>
-</div>
-	
+</section>
+

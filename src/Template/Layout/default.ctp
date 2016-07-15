@@ -19,6 +19,7 @@
 	<?= $this->AlaxosHtml->includeAlaxosBootstrapJS(['block' => false]) ?>
 	<?= $this->Html->script('datepicker/bootstrap-datepicker.min') ?>
 	<?= $this->Html->script('alaxos/alaxos.js') ?>
+	<?= $this->Html->script('timer.jquery.min') ?>
 	<script src="https://use.fontawesome.com/bd947468f1.js"></script>
 </head>
 <body>
@@ -58,7 +59,12 @@
         return false;
     });
   });
+  $('#timer').timer({
+    seconds: 0<?=$this->fetch('time');?>, //Specify start time in seconds
+    format: '%H:%M:%S'
+	});
 </script>
+
 
 </body>
 </html>

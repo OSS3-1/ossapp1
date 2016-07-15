@@ -41,14 +41,12 @@ class GroupsController extends AppController
 	    
 	    
 	    //if user work on an order denied access and redirect
-/*
-	    $this->request->session()->read('Auth.User.busy');//Get user stats from session 
-	    $actual_job = $this->Auth->user('busy');
+	    //$this->request->session()->read('Auth.User.busy');//Get user stats from session 
+	    $actual_job = $this->Auth->user('busy');//Get user stats from session
 	    
 	    if($actual_job != 0){
 		    return $this->redirect(['controller' => 'Jobs', 'action' => 'actualJob', $actual_job]);
 	    } 
-*/
 	    //
 	    
 	    
@@ -62,17 +60,28 @@ class GroupsController extends AppController
             'contain' => ['Dealerships.Jobs.Services'] //get the dealership jobs lists
         ]);
         
+        
         $this->loadModel('Users');// Get Users Model
         $actual_user =  $this->Auth->user('id');// Set actual user ID
         $user = $this->Users->get($actual_user);// Retrieve actual login user info
         
-        
  
         if ($this->request->is(['patch', 'post', 'put'])) {
-					$user->busy = $this->request->data['job']; //set user status to busy and assign 
+	        $job_id = $this->request->data['job']; //get job ID
+	        
+	        //JOB DATA
+	        $this->loadModel('Jobs');// Get Jobs Model
+					$job = $this->Jobs->get($job_id);// Retrieve actual login user info
+	        $job->employee_assigned = $this->Auth->user('full_name');
+	        $job->start = date('Y-m-d H:i:s'); 
+	        $job->user_id = $actual_user;
+	        $this->Jobs->save($job);
+	        
+	        //USER DATA
+					$user->busy = $job_id; //set user status to busy
 					$this->Users->save($user);//save user data
-					$this->request->session()->write('Auth.User.busy', $this->request->data['job']);//Get user stats from session
-					return $this->redirect(['action' => 'employeeList', $id]);
+					$this->request->session()->write('Auth.User.busy', $job_id );//Get user stats from session and write new value
+					return $this->redirect(['controller'=>'Jobs', 'action' => 'actualJob', $job_id ]);
         }
         
         $this->set('group', $group);
