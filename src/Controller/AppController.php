@@ -49,7 +49,7 @@ class AppController extends Controller
 	        	'authorize' => ['Controller'],
             'loginRedirect' => [
                 'controller' => 'Users',
-                'action' => 'index'
+                'action' => 'welcome'
             ],
             'logoutRedirect' => [
                 'controller' => 'Users',
@@ -72,7 +72,7 @@ class AppController extends Controller
 		 public function beforeFilter(Event $event)
     {
         $this->Auth->allow(['display']);
-        $this->set('current_user', $this->Auth->user()); //redireccionar si el usuario no es administrador
+        $this->set('current_user', $this->Auth->user());
     }
 
     /**

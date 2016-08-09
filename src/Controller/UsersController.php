@@ -20,7 +20,7 @@ class UsersController extends AppController
     
     public function isAuthorized($user){
 		    // All registered users can add articles
-		    if ($this->request->action === 'index') {
+		    if (in_array($this->request->action, ['welcome','profile'])){
 		        return true;
 		    }
 		    return parent::isAuthorized($user);
@@ -43,25 +43,63 @@ class UsersController extends AppController
     
     public function login()
 		{
-	    if ($this->request->is('post')) {
+			if($this->Auth->user()){
+				//check role of user an redirect
+				if($this->Auth->user('role') === 'admin'){
+					return $this->redirect('/users/welcome');
+				}elseif($this->Auth->user('role') === 'employee'){
+					return $this->redirect('/users/welcome');
+				}
+			}else{
+				if ($this->request->is('post')) {
 	        $user = $this->Auth->identify();
 	        if ($user) {
 	            $this->Auth->setUser($user);
 	            if($this->Auth->user('role') === 'admin'){
 		            return $this->redirect($this->Auth->redirectUrl());
 	            }else{
-		            return $this->redirect('/employees/welcome');
+		            return $this->redirect('/users/welcome');
 	            }
 	            //return $this->redirect($this->Auth->redirectUrl());s
 	        }
 	        $this->Flash->error(__('Invalid username or password, try again'));
-	    }
+	    	}
+			}
 		}
 		
 		public function logout()
 		{
 		  return $this->redirect($this->Auth->logout());
 		}
+		
+		public function welcome(){ 
+			$this->autoRender = false;
+	    
+	    //if user work on an order denied access and redirect
+	    //$this->request->session()->read('Auth.User.busy');//Get user stats from session 
+	    $actual_job = $this->Auth->user('busy');//Get user stats 
+	    
+	    if($actual_job != 0){
+		    return $this->redirect(['controller' => 'Jobs', 'action' => 'actualJob', $actual_job]);
+	    }else{
+		    return $this->redirect(['controller' => 'Pages', 'action' => 'display', 'dashboard']);
+	    }
+	    //
+	    
+	    
+	    $this->set('groups', $this->paginate($this->Filter->getFilterQuery()));
+      $this->set('_serialize', ['groups']);
+    }
+    
+    
+    public function profile($id = null)
+    {
+        $user = $this->Users->get($id, [
+            'contain' => ['Dealerships','Jobs']
+        ]);
+        $this->set('user', $user);
+        $this->set('_serialize', ['user']);
+    }
 
     /**
     * Index method

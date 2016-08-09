@@ -12,7 +12,9 @@
         "cakephp/plugin-installer": "*",
         "alaxos/cakephp3-bootstrap-theme": "^0.9.3",
         "alaxos/cakephp3-libs": "^1.0",
-        "davidyell/proffer": "~0.6"
+        "davidyell/proffer": "~0.6",
+        "josegonzalez/cakephp-upload": "^3.6",
+        "hashmode/cakephp-jquery-file-upload": "~1.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -26,7 +28,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "src"
-        }
+        },
+        "classmap": [
+				    "vendor/blueimp/jquery-file-upload/server/php"
+				]
     },
     "autoload-dev": {
         "psr-4": {
@@ -37,8 +42,9 @@
     "scripts": {
         "post-install-cmd": "App\\Console\\Installer::postInstall",
         "post-create-project-cmd": "App\\Console\\Installer::postInstall",
-        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
-    },
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
+        "post-update-cmd": "CakephpJqueryFileUpload\\Console\\Installer::postUpdate"
+    },  
     "minimum-stability": "stable",
     "prefer-stable": true
 }

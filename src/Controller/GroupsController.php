@@ -28,7 +28,7 @@ class GroupsController extends AppController
     
     public function isAuthorized($user){
 		    // Permitr el accesso a los empleados
-		    if (in_array($this->request->action, ['employeeWelcome', 'employeeList'])) {
+		    if (in_array($this->request->action, ['employeeWelcome', 'employeeList','getJob'])) {
 		        return true;
 		    }
 		    return parent::isAuthorized($user);
@@ -37,17 +37,8 @@ class GroupsController extends AppController
 		/**
     	Employee functions
     */
-    public function employeeWelcome(){ //get list of groups
+    public function getJob(){ //get list of groups
 	    
-	    
-	    //if user work on an order denied access and redirect
-	    //$this->request->session()->read('Auth.User.busy');//Get user stats from session 
-	    $actual_job = $this->Auth->user('busy');//Get user stats from session
-	    
-	    if($actual_job != 0){
-		    return $this->redirect(['controller' => 'Jobs', 'action' => 'actualJob', $actual_job]);
-	    } 
-	    //
 	    
 	    
 	    $this->set('groups', $this->paginate($this->Filter->getFilterQuery()));

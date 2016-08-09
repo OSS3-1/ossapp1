@@ -142,6 +142,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Controller\/ImagesController.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Controller\/ImagesController.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Controller\/JobsController.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -205,6 +214,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Model\/Entity\/Image.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Model\/Entity\/Image.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Model\/Entity\/Job.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -259,6 +277,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Model\/Table\/ImagesTable.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Model\/Table\/ImagesTable.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Model\/Table\/JobsTable.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -300,6 +327,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Shell\/ConsoleShell.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Cell\/ActualJob\/display.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Cell\/ActualJob\/display.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -376,15 +412,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/Template\/Element\/footer.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Template\/Element\/footer.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/src\/Template\/Element\/menu.ctp": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -408,6 +435,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Template\/Element\/menu_employee.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Element\/menu_footer.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Element\/menu_footer.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Element\/menu_top.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Element\/menu_top.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -484,11 +529,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/Template\/Groups\/employee_welcome.ctp": {
+	"\/src\/Template\/Groups\/get_job.ctp": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Template\/Groups\/employee_welcome.ctp",
+		"inputAbbreviatedPath": "\/src\/Template\/Groups\/get_job.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -507,6 +552,60 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Template\/Groups\/view.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/add.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/add.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/copy.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/copy.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/edit.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/edit.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/index.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/index.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/upload.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/upload.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Images\/view.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Images\/view.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -556,11 +655,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/Template\/Jobs\/end_job.ctp": {
+	"\/src\/Template\/Jobs\/finalize.ctp": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Template\/Jobs\/end_job.ctp",
+		"inputAbbreviatedPath": "\/src\/Template\/Jobs\/finalize.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -588,6 +687,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Template\/Jobs\/new.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Jobs\/take.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Jobs\/take.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -673,6 +781,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Template\/Pages\/ajax.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Pages\/ajax.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Pages\/dashboard.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Pages\/dashboard.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Template\/Pages\/home.ctp": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -687,6 +813,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Template\/Pages\/home_cake.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Template\/Pages\/jobs.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Pages\/jobs.ctp",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -826,6 +961,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Template\/Users\/profile.ctp": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Template\/Users\/profile.ctp",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Template\/Users\/view.ctp": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -853,6 +997,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/View\/Cell\/ActualJobCell.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/View\/Cell\/ActualJobCell.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/tests\/bootstrap.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -876,6 +1029,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tests\/Fixture\/GroupsFixture.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tests\/Fixture\/ImagesFixture.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tests\/Fixture\/ImagesFixture.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -930,6 +1092,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tests\/TestCase\/Controller\/GroupsControllerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tests\/TestCase\/Controller\/ImagesControllerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tests\/TestCase\/Controller\/ImagesControllerTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -997,6 +1168,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/tests\/TestCase\/Model\/Table\/ImagesTableTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tests\/TestCase\/Model\/Table\/ImagesTableTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/tests\/TestCase\/Model\/Table\/JobsTableTest.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1029,6 +1209,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tests\/TestCase\/Model\/Table\/UsersTableTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tests\/TestCase\/View\/Cell\/ActualJobCellTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tests\/TestCase\/View\/Cell\/ActualJobCellTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1173,6 +1362,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tmp\/bake\/Bake-tests-test-case-ctp.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tmp\/bake\/Bake-View-cell-ctp.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tmp\/bake\/Bake-View-cell-ctp.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3119,6 +3317,421 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/blueimp\/jquery-file-upload\/angularjs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/angularjs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/basic-plus.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/basic-plus.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/CONTRIBUTING.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/CONTRIBUTING.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/cors\/postmessage.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/cors\/postmessage.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/cors\/result.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/cors\/result.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/demo-ie8.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/demo-ie8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-noscript.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-noscript.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-ui-noscript.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-ui-noscript.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/jquery.fileupload.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/jquery-ui.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/jquery-ui.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/app.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/jquery.postmessage-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/jquery.postmessage-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/min\/jquery.postmessage-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/jquery.xdr-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/jquery.xdr-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/cors\/min\/jquery.xdr-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-angular.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-angular.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-angular-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-audio.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-audio.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-audio-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-image.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-image.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-image-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-jquery-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-jquery-ui.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-jquery-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-process.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-process.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-process-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-ui.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-validate.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload-video.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.fileupload.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.fileupload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.iframe-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/jquery.iframe-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/jquery.iframe-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/main.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/js\/vendor\/jquery.ui.widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/vendor\/jquery.ui.widget.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/js\/vendor\/min\/jquery.ui.widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/server\/php\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/server\/php\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/server\/php\/UploadHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/server\/php\/UploadHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/blueimp\/jquery-file-upload\/test\/test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/test\/test.js",
+		"outputAbbreviatedPath": "\/vendor\/blueimp\/jquery-file-upload\/test\/min\/test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/vendor\/cakephp-plugins.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3691,639 +4304,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerate.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerate.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerateWithTemplateFallbacks.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerateWithTemplateFallbacks.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerateWithTemplateOverride.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeTemplate\/testGenerateWithTemplateOverride.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeView\/testNoLineBreaks.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeView\/testNoLineBreaks.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeView\/testSwallowLeadingWhitespace.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/BakeView\/testSwallowLeadingWhitespace.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Cell\/testBakePlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Cell\/testBakePlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActionsContent.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActionsContent.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActionsOption.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeActionsOption.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeComponents.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeComponents.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeNoActions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeNoActions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeWithPlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Controller\/testBakeWithPlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Fixture\/testImportRecordsFromDatabase.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Fixture\/testImportRecordsFromDatabase.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Mailer\/testBakePlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Mailer\/testBakePlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionCategoriesProductsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionCategoriesProductsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionCategoriesTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionCategoriesTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionOldProductsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionOldProductsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionProductsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionProductsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionProductVersionsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeAssociationDetectionProductVersionsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntity.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntity.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityCustomHidden.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityCustomHidden.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityFieldsDefaults.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityFieldsDefaults.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityFieldsWhiteList.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityFieldsWhiteList.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityHidden.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityHidden.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityNoFields.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityNoFields.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityWithPlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityWithPlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityWithPropertyTypeHints.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeEntityWithPropertyTypeHints.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableConfig.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableConfig.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableRelations.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableRelations.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableValidation.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableValidation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableWithPlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeTableWithPlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeWithRules.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Model\/testBakeWithRules.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/config\/routes.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/config\/routes.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/src\/Controller\/AppController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/src\/Controller\/AppController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/tests\/bootstrap.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/Company\/Example\/tests\/bootstrap.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/config\/routes.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/config\/routes.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/src\/Controller\/AppController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/src\/Controller\/AppController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/tests\/bootstrap.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/SimpleExample\/tests\/bootstrap.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/testMainUpdateComposer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/testMainUpdateComposer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Plugin\/testMainUpdateComposer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Shell\/Task\/testBake.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Shell\/Task\/testBake.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Shell\/Task\/testBakePlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Shell\/Task\/testBakePlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Simple\/testBake.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Simple\/testBake.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Simple\/testBakePlugin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Simple\/testBakePlugin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeEdit.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeEdit.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeIndex.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeIndex.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeIndexWithIndexLimit.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeIndexWithIndexLimit.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeView.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testBakeView.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContent.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContent.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentAssociations.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentAssociations.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentWithRoutingPrefix-add.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentWithRoutingPrefix-add.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentWithRoutingPrefix-view.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Template\/testGetContentWithRoutingPrefix-view.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeBehaviorTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeBehaviorTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeCellTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeCellTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeComponentTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeComponentTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeControllerTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeControllerTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeFixturesParam.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeFixturesParam.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeHelperTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeHelperTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeModelTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeModelTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeNoFixtureParam.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeNoFixtureParam.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakePrefixControllerTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakePrefixControllerTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellHelperTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellHelperTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/comparisons\/Test\/testBakeShellTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/cakephp\/bake\/tests\/Fixture\/BakeArticlesBakeTagsFixture.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4473,447 +4453,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/Fixture\/ProductVersionsFixture.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Admin\/Management\/PostsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Admin\/Management\/PostsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Admin\/PostsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Admin\/PostsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/AppController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/AppController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/CommentsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/CommentsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Component\/AppleComponent.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/Component\/AppleComponent.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/PostsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/PostsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/TemplateTaskCommentsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Controller\/TemplateTaskCommentsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Model\/Table\/ArticlesTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Model\/Table\/ArticlesTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Model\/Table\/CategoryThreadsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Model\/Table\/CategoryThreadsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/Custom\/file.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/Custom\/file.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/example.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/example.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/leading_whitespace.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/leading_whitespace.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/newlines.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/newlines.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/no_line_breaks.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/no_line_breaks.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple_php.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple_php.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple_php_short_tags.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/App\/Template\/Bake\/simple_php_short_tags.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/Admin\/CommentsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/Admin\/CommentsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/BakeTestAppController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/BakeTestAppController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/TestsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Controller\/TestsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/AuthorsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/AuthorsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/BakeArticlesTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/BakeArticlesTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/BakeTestCommentsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/BakeTestCommentsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/CommentsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Model\/Table\/CommentsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Shell\/Task\/WidgetTask.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Shell\/Task\/WidgetTask.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Shell\/Task\/ZergTask.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/BakeTest\/src\/Shell\/Task\/ZergTask.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/TestBakeTheme\/src\/Template\/Bake\/config\/routes.ctp": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/test_app\/Plugin\/TestBakeTheme\/src\/Template\/Bake\/config\/routes.ctp",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/BakeShellTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/BakeShellTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/BakeArticlesTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/BakeArticlesTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/BakeTemplateTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/BakeTemplateTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/CellTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/CellTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ControllerTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ControllerTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/FixtureTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/FixtureTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/MailerTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/MailerTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ModelTaskAssociationDetectionTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ModelTaskAssociationDetectionTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ModelTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/ModelTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/PluginTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/PluginTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/SimpleBakeTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/SimpleBakeTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TaskTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TaskTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTask\/AuthorsController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTask\/AuthorsController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTask\/AuthorsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTask\/AuthorsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskArticlesTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskArticlesTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskCommentsTable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskCommentsTable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TemplateTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TestTaskTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Shell\/Task\/TestTaskTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/TestCase.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/TestCase.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/Utility\/Model\/AssociationFilterTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/Utility\/Model\/AssociationFilterTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/View\/BakeViewTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/View\/BakeViewTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/cakephp\/bake\/tests\/TestCase\/View\/Helper\/BakeHelperTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/cakephp\/bake\/tests\/TestCase\/View\/Helper\/BakeHelperTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6829,6 +6368,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/cakephp\/cakephp\/src\/Datasource\/RuleInvoker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/Datasource\/RuleInvoker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/cakephp\/cakephp\/src\/Datasource\/RulesAwareTrait.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6843,6 +6391,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/Datasource\/RulesChecker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/cakephp\/cakephp\/src\/Datasource\/TableSchemaInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/Datasource\/TableSchemaInterface.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7560,6 +7117,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/cakephp\/cakephp\/src\/Network\/Exception\/UnavailableForLegalReasonsException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/Network\/Exception\/UnavailableForLegalReasonsException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/cakephp\/cakephp\/src\/Network\/Http\/Adapter\/Stream.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7927,6 +7493,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/ORM\/Exception\/MissingTableClassException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/cakephp\/cakephp\/src\/ORM\/Exception\/RolledbackTransactionException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/cakephp\/cakephp\/src\/ORM\/Exception\/RolledbackTransactionException.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11916,6 +11491,293 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/Console\/Installer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/Console\/Installer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/Controller\/Component\/JqueryFileUploadComponent.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/Controller\/Component\/JqueryFileUploadComponent.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/View\/Helper\/JqueryFileUploadHelper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/src\/View\/Helper\/JqueryFileUploadHelper.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/demo-ie8.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/demo-ie8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-noscript.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-noscript.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-ui-noscript.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-ui-noscript.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/jquery.fileupload.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/app.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/jquery.postmessage-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/jquery.postmessage-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/min\/jquery.postmessage-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/jquery.xdr-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/jquery.xdr-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/cors\/min\/jquery.xdr-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-angular.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-angular.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-angular-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-audio.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-audio.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-audio-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-image.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-image.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-image-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-jquery-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-jquery-ui.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-jquery-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-process.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-process.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-process-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-ui.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-validate.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload-video.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.fileupload.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.fileupload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.iframe-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/jquery.iframe-transport.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/jquery.iframe-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/main.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/vendor\/jquery.ui.widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/vendor\/jquery.ui.widget.js",
+		"outputAbbreviatedPath": "\/vendor\/hashmode\/cakephp-jquery-file-upload\/webroot\/js\/vendor\/min\/jquery.ui.widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/vendor\/intervention\/image\/composer.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -13323,6 +13185,718 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/jdorn\/sql-formatter\/tests\/SqlFormatterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/CONTRIBUTING.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/CONTRIBUTING.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Database\/Type\/FileType.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Database\/Type\/FileType.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/Basepath\/DefaultTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/Basepath\/DefaultTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/DefaultProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/DefaultProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/Filename\/DefaultTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/Filename\/DefaultTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/ProcessorInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Path\/ProcessorInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/DefaultTransformer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/DefaultTransformer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/SlugTransformer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/SlugTransformer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/TransformerInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Transformer\/TransformerInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Writer\/DefaultWriter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Writer\/DefaultWriter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Writer\/WriterInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/File\/Writer\/WriterInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Model\/Behavior\/UploadBehavior.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Model\/Behavior\/UploadBehavior.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/DefaultValidation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/DefaultValidation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/ImageValidation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/ImageValidation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/Traits\/ImageValidationTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/Traits\/ImageValidationTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/Traits\/UploadValidationTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/Traits\/UploadValidationTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/UploadValidation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/src\/Validation\/UploadValidation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/bootstrap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/bootstrap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/Fixture\/FilesFixture.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/Fixture\/FilesFixture.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/Stub\/ChildBehavior.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/Stub\/ChildBehavior.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Database\/Type\/FileTypeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Database\/Type\/FileTypeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/Basepath\/DefaultTraitTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/Basepath\/DefaultTraitTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/DefaultProcessorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/DefaultProcessorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/Filename\/DefaultTraitTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Path\/Filename\/DefaultTraitTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Transformer\/DefaultTransformerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Transformer\/DefaultTransformerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Transformer\/SlugTransformerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Transformer\/SlugTransformerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Writer\/DefaultWriterTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/File\/Writer\/DefaultWriterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Model\/Behavior\/UploadBehaviorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Model\/Behavior\/UploadBehaviorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Validation\/ImageValidationTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Validation\/ImageValidationTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Validation\/UploadValidationTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/josegonzalez\/cakephp-upload\/tests\/TestCase\/Validation\/UploadValidationTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/league\/flysystem\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/AbstractAdapter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/AbstractAdapter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/AbstractFtpAdapter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/AbstractFtpAdapter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Ftp.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Ftp.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Ftpd.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Ftpd.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Local.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Local.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/NullAdapter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/NullAdapter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/NotSupportingVisibilityTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/NotSupportingVisibilityTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedCopyTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedCopyTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedReadingTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedReadingTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedWritingTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/Polyfill\/StreamedWritingTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Adapter\/SynologyFtp.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Adapter\/SynologyFtp.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/AdapterInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/AdapterInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Config.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Config.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/ConfigAwareTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/ConfigAwareTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Directory.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Directory.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/File.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/File.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/FileExistsException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/FileExistsException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/FileNotFoundException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/FileNotFoundException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Filesystem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Filesystem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/FilesystemInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/FilesystemInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Handler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Handler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/MountManager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/MountManager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/NotSupportedException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/NotSupportedException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/AbstractPlugin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/AbstractPlugin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/EmptyDir.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/EmptyDir.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/ForcedCopy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/ForcedCopy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/ForcedRename.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/ForcedRename.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/GetWithMetadata.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/GetWithMetadata.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/ListFiles.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/ListFiles.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/ListPaths.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/ListPaths.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/ListWith.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/ListWith.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/PluggableTrait.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/PluggableTrait.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Plugin\/PluginNotFoundException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Plugin\/PluginNotFoundException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/PluginInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/PluginInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/ReadInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/ReadInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/RootViolationException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/RootViolationException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/UnreadableFileException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/UnreadableFileException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Util.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Util.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Util\/ContentListingFormatter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Util\/ContentListingFormatter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Util\/MimeType.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Util\/MimeType.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/league\/flysystem\/src\/Util\/StreamHasher.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/league\/flysystem\/src\/Util\/StreamHasher.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -16008,6 +16582,27 @@
 		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/UPGRADE-2.0.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/UPGRADE-2.0.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/psr\/http-message\/CHANGELOG.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/psr\/http-message\/CHANGELOG.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/psr\/http-message\/CHANGELOG.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -21083,6 +21678,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/symfony\/console\/Tests\/Fixtures\/Style\/SymfonyStyle\/command\/command_16.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/console\/Tests\/Fixtures\/Style\/SymfonyStyle\/command\/command_16.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/symfony\/console\/Tests\/Fixtures\/Style\/SymfonyStyle\/command\/command_2.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -26117,6 +26721,210 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/webroot\/bower_components\/wow\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/css\/libs\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/css\/libs\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webroot\/bower_components\/wow\/css\/site.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/css\/site.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webroot\/bower_components\/wow\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webroot\/bower_components\/wow\/dist\/wow.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/dist\/wow.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/dist\/min\/wow-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/dist\/wow.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/dist\/wow.min.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/dist\/min\/wow.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/webroot\/bower_components\/wow\/spec\/coffeescripts\/helpers\/SpecHelper.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/coffeescripts\/helpers\/SpecHelper.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/coffeescripts\/helpers\/SpecHelper.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/spec\/coffeescripts\/wow-spec.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/coffeescripts\/wow-spec.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/coffeescripts\/wow-spec.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/fixtures\/custom.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/fixtures\/custom.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/fixtures\/simple.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/fixtures\/simple.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/helpers\/SpecHelper.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/helpers\/SpecHelper.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/helpers\/min\/SpecHelper-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/jasmine-jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/jasmine-jquery.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/min\/jasmine-jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/jquery.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/libs\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/spec\/javascripts\/wow-spec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/wow-spec.js",
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/spec\/javascripts\/min\/wow-spec-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/webroot\/bower_components\/wow\/src\/wow.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/bower_components\/wow\/src\/wow.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/webroot\/bower_components\/wow\/src\/wow.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/webroot\/css\/base.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -26180,6 +26988,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/css\/helper.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/css\/helper.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/webroot\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -26207,6 +27024,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/css\/pe-icon-7-stroke.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/css\/pe-icon-7-stroke.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/webroot\/css\/scroller.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -26225,6 +27051,666 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121640,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/thumb_12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8775,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/09ac88ab-4eee-4024-9643-089bdcf2bdf7\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/cnc-sinumerik-steuerungen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39324,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/cnc-sinumerik-steuerungen.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/cnc-sinumerik-steuerungen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/thumb_cnc-sinumerik-steuerungen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7723,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/thumb_cnc-sinumerik-steuerungen.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/0bd74e33-8c9c-451b-9f91-f8827b0ea412\/thumb_cnc-sinumerik-steuerungen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111389,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/thumb_12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1b24da0d-5817-45f3-8590-4e38bec1c10f\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98526,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/thumb_12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9506,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/1c8d7480-8f3b-46ac-b1e7-b6d6c7292c59\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86091,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/thumb_12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10476,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/3278ba55-9d28-4764-87c3-7e663f33001a\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86091,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/thumb_12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10476,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/40f442ed-ce6f-47b6-9cb3-e01912392272\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56883,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/thumb_12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6049,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/4fc40dee-fc0e-4edd-b5b8-b22bd5064c8c\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111389,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/thumb_12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/5a67dad7-25cf-4d64-87d5-66851bb0db3a\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/automatisierungssysteme_siemens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83182,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/automatisierungssysteme_siemens.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/automatisierungssysteme_siemens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/thumb_automatisierungssysteme_siemens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15673,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/thumb_automatisierungssysteme_siemens.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7a1e8fab-450c-4c30-922d-3e118ba6bc58\/thumb_automatisierungssysteme_siemens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/automation_thb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47881,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/automation_thb.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/automation_thb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/thumb_automation_thb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9564,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/thumb_automation_thb.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/7b9d7848-995e-4b0b-926a-95f336431d7a\/thumb_automation_thb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98526,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/thumb_12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9506,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/829c9815-a0f9-40ce-a3f7-3a8113d9118c\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56883,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/thumb_12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6049,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/834beb6d-9a22-46f6-982a-02548e3e1cdd\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/intro-automation-software.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133146,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/intro-automation-software.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/intro-automation-software.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/thumb_intro-automation-software.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8629,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/thumb_intro-automation-software.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/8501ebf8-9e55-4e2b-a6ab-84373c8067d7\/thumb_intro-automation-software.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56883,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/thumb_12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6049,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/9f732412-bc68-4406-a0f0-c6ce2caf9255\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111389,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/thumb_12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a060690d-aecc-4dda-af93-45512860e1e4\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98526,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/thumb_12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9506,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a6058d00-f604-47b0-92b2-f096ebbc7a8d\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121640,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/thumb_12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8775,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/a9bcd898-0b62-4881-9e59-51af028a6a6f\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86091,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/thumb_12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10476,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/af2bab50-12f8-42e4-8494-86916edacd61\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121640,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/thumb_12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8775,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b1a414d6-b18f-4116-9796-c3f31b806af1\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/foundation_fieldbus_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11322,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/foundation_fieldbus_small.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/foundation_fieldbus_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/thumb_foundation_fieldbus_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6460,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/thumb_foundation_fieldbus_small.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/b816724f-09fe-4c0a-a1b0-3de166b42dfb\/thumb_foundation_fieldbus_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111389,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/thumb_12482754_10153875511533708_187003917_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11431,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/bf8c5e5a-7a49-4951-99bf-0f531cf7c651\/thumb_12482754_10153875511533708_187003917_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56883,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/thumb_12494312_10153875512303708_333343403_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6049,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/de1cedc6-50c5-4ada-88ab-445ba267ab13\/thumb_12494312_10153875512303708_333343403_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86091,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/thumb_12421557_10153875515148708_1885574345_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10476,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eac6f2ec-53e2-4895-a421-792a8ce652d1\/thumb_12421557_10153875515148708_1885574345_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98526,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/thumb_12510182_10153875511383708_710901123_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9506,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/eb070593-769f-4353-bf33-720502410f3e\/thumb_12510182_10153875511383708_710901123_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121640,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/thumb_12490331_10153875512028708_1370579722_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8775,
+		"inputAbbreviatedPath": "\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/images\/photo\/ec7edd4e-c644-44a9-8bb5-eaad78f05828\/thumb_12490331_10153875512028708_1370579722_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/Absolutely_Stunning_Architecture _02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248421,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/Absolutely_Stunning_Architecture _02.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/Absolutely_Stunning_Architecture _02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465250,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465250,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465250,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465250,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/Screen Shot 2016-08-09 at 15.55.20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/thumbnail\/Absolutely_Stunning_Architecture _02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2278,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Absolutely_Stunning_Architecture _02.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Absolutely_Stunning_Architecture _02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1491,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (1).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1491,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (2).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1491,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20 (3).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1491,
+		"inputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20.jpg",
+		"outputAbbreviatedPath": "\/webroot\/files\/uploads\/thumbnail\/Screen Shot 2016-08-09 at 15.55.20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/webroot\/img\/cake.icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -26232,6 +27718,61 @@
 		"initialSize": 943,
 		"inputAbbreviatedPath": "\/webroot\/img\/cake.icon.png",
 		"outputAbbreviatedPath": "\/webroot\/img\/cake.icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/img\/car-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19054,
+		"inputAbbreviatedPath": "\/webroot\/img\/car-1.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/car-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/img\/car-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18074,
+		"inputAbbreviatedPath": "\/webroot\/img\/car-2.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/car-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/img\/car-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14884,
+		"inputAbbreviatedPath": "\/webroot\/img\/car-3.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/car-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/img\/car-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15372,
+		"inputAbbreviatedPath": "\/webroot\/img\/car-4.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/car-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/img\/car-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18120,
+		"inputAbbreviatedPath": "\/webroot\/img\/car-5.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/car-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -26302,7 +27843,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/webroot\/sass\/navbar.scss",
 		"outputAbbreviatedPath": "\/webroot\/css\/navbar.css",

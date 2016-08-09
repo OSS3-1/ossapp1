@@ -11,9 +11,9 @@ use App\Controller\AppController;
  */
 class JobsController extends AppController
 {
-		 public function isAuthorized($user){
-		    // All registered users can add articles
-		    if ($this->request->action === 'actualJob') {
+		public function isAuthorized($user){
+		    // Permitr el accesso
+		    if (in_array($this->request->action, ['actualJob','take', 'finalize','new'])) {
 		        return true;
 		    }
 		    return parent::isAuthorized($user);
@@ -46,16 +46,34 @@ class JobsController extends AppController
         $this->set(compact('statuses', 'dealerships', 'services'));
     }
     
+    public function ajax() //Requester function to up a job order
+    {
+			if ($this->request->is('ajax')) {
+						$this->response->disableCache();
+						$this->autoRender = false; // Set Render False
+		        $this->response->body('Success');
+		        echo 'fuck';
+		        return $this->response;
+					}
+    }
+    
     
 		public function new() //Requester function to up a job order
     {
+	    	$actual_user_id =  $this->Auth->user('id');// Set actual user ID
         $job = $this->Jobs->newEntity();
         if ($this->request->is('post')) {
-            $job = $this->Jobs->patchEntity($job, $this->request->data);
-            $job->status_id = 1; //define status to Pending Approval
+	        
+            $job = $this->Jobs->patchEntity($job, $this->request->data, [
+						    'associated' => [
+						        'Images'
+						    ]
+						]);
+						$job->user_id = $actual_user_id;
+            $job->status_id = 2; //define status
             if ($this->Jobs->save($job)) {
                 $this->Flash->success(___('the job has been saved'), ['plugin' => 'Alaxos']);
-                return $this->redirect(['action' => 'view', $job->id]);
+                return $this->redirect(['controller'=>'Groups','action' => 'employeeWelcome', $job->id]);
             } else {
                 $this->Flash->error(___('the job could not be saved. Please, try again.'), ['plugin' => 'Alaxos']);
             }
@@ -67,16 +85,88 @@ class JobsController extends AppController
         $this->set('_serialize', ['job']);
     }
     
+    public function take($id = null)
+    {
+	    	$this->loadModel('Users');// Get Users Model
+        $actual_user_id =  $this->Auth->user('id');// Set actual user ID
+        $user = $this->Users->get($actual_user_id);// Retrieve actual login user info
+
+				$job = $this->Jobs->get($id, [
+            'contain' => ['Statuses', 'Dealerships', 'Services','Users']
+        ]);
+
+        if ($this->request->is(['patch', 'post', 'put'])) {
+	        
+             $job = $this->Jobs->patchEntity($job, $this->request->data, [
+						    'associated' => [
+						        'Images'
+						    ]
+						]);
+						
+				
+						//JOB DATA
+						$job->status_id = 3;
+						$job->employee_assigned = $this->Auth->user('full_name');
+						$job->start = date('Y-m-d H:i:s'); //set start date/time of the job order
+	        	$job->user_id = $actual_user_id;
+	        	
+	        	//USER DATA
+						$user->busy = $job->id; //set user status to busy
+						$this->Users->save($user);//save user data
+						$this->request->session()->write('Auth.User.busy', $job->id);//Get user stats from session and write new value
+						
+            if ($this->Jobs->save($job)) {
+                $this->Flash->success(___('the job has been saved'), ['plugin' => 'Alaxos']);
+                return $this->redirect(['action' => 'actualJob', $job->id]);
+            } else {
+                $this->Flash->error(___('Please fill all inputs, try again.'), ['plugin' => 'Alaxos']);
+            }
+        }
+        $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
+        $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
+        $services = $this->Jobs->Services->find('list', ['limit' => 200]);
+        $this->set(compact('job', 'statuses', 'dealerships', 'services','images'));
+        $this->set('_serialize', ['job']);
+    }
+    
     public function actualJob($id = null)
     {
-        $job = $this->Jobs->get($id, [
+	    	if ($this->Auth->user('busy') != 0){ //check if user actual busy on any work
+	        $job = $this->Jobs->get($id, [
+	            'contain' => ['Statuses', 'Dealerships', 'Services','Users']
+	        ]);
+	        
+	        
+	        $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
+	        $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
+	        $services = $this->Jobs->Services->find('list', ['limit' => 200]);
+	        $this->set(compact('job', 'statuses', 'users', 'dealerships', 'services'));
+	        $this->set('_serialize', ['job']);
+        }else{
+	        $this->Flash->error(___('you are not currently working on any order'), ['plugin' => 'Alaxos']);
+	        return $this->redirect(['controller'=>'Groups','action' => 'employeeWelcome']);
+        }
+    }
+    
+    public function finalize($id = null)
+    {
+	    	$this->loadModel('Users');// Get Users Model
+        $actual_user_id =  $this->Auth->user('id');// Set actual user ID
+        $user = $this->Users->get($actual_user_id);// Retrieve actual login user info
+        
+				$job = $this->Jobs->get($id, [
             'contain' => ['Statuses', 'Dealerships', 'Services','Users']
         ]);
         
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $job = $this->Jobs->patchEntity($job, $this->request->data);
-            
-            $start_date = new \DateTime($job->start); // get start date/time from db
+	        
+             $job = $this->Jobs->patchEntity($job, $this->request->data, [
+						    'associated' => [
+						        'Images'
+						    ]
+						]);
+				
+						$start_date = new \DateTime($job->start); // get start date/time from db
 						$end_date  = new \DateTime(date('Y-m-d H:i:s')); // get actual date/time 
 						$interval = date_diff($start_date,$end_date); //get the time of the task
 						$total_time = $interval->format('%H:%I:%S'); //format time in Hours:Min:Sec
@@ -84,12 +174,13 @@ class JobsController extends AppController
 						$job->status_id = 5; //Job order status set to done
 						$job->end = date('Y-m-d H:i:s'); //set de end date/time	
 						$job->time = $total_time; //set the complete time
-						
+	        	
+	        	//USER DATA
 						$this->loadModel('Users');// Get Users Model
 						$actual_user =  $this->Auth->user('id');// Set actual user ID
 						$user = $this->Users->get($actual_user);// Retrieve actual login user info
 						$user->busy = 0; //set user status to busy
-
+						
             if ($this->Jobs->save($job) && $this->Users->save($user)) {
                 $this->Flash->success(___('Well Done'), ['plugin' => 'Alaxos']);
 								$this->request->session()->write('Auth.User.busy', 0);//Get user stats from session and write new value
@@ -99,11 +190,8 @@ class JobsController extends AppController
                 $this->Flash->error(___('the job could not be saved. Please, try again.'), ['plugin' => 'Alaxos']);
             }
         }
-        
-        $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
-        $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
-        $services = $this->Jobs->Services->find('list', ['limit' => 200]);
-        $this->set(compact('job', 'statuses', 'users', 'dealerships', 'services'));
+
+        $this->set(compact('job', 'statuses', 'dealerships', 'services','images'));
         $this->set('_serialize', ['job']);
     }
     
@@ -126,9 +214,9 @@ class JobsController extends AppController
     * @return void
     */
     public function index()
-    {
+    {	
         $this->paginate = [
-            'contain' => ['Statuses', 'Dealerships', 'Services']
+            'contain' => ['Statuses', 'Dealerships', 'Services','Users']
         ];
         $this->set('jobs', $this->paginate($this->Filter->getFilterQuery()));
         $this->set('_serialize', ['jobs']);
@@ -136,7 +224,8 @@ class JobsController extends AppController
         $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
         $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
         $services = $this->Jobs->Services->find('list', ['limit' => 200]);
-        $this->set(compact('statuses', 'dealerships', 'services'));
+        $users = $this->Jobs->Users->find('list', ['limit' => 200]);
+        $this->set(compact('statuses', 'dealerships', 'services','users'));
     }
 
     /**
@@ -149,7 +238,7 @@ class JobsController extends AppController
     public function view($id = null)
     {
         $job = $this->Jobs->get($id, [
-            'contain' => ['Statuses', 'Dealerships', 'Services']
+            'contain' => ['Statuses', 'Dealerships', 'Services', 'Images']
         ]);
         $this->set('job', $job);
         $this->set('_serialize', ['job']);
@@ -163,8 +252,13 @@ class JobsController extends AppController
     public function add()
     {
         $job = $this->Jobs->newEntity();
+       
         if ($this->request->is('post')) {
-            $job = $this->Jobs->patchEntity($job, $this->request->data);
+            $job = $this->Jobs->patchEntity($job, $this->request->data, [
+						    'associated' => [
+						        'Images'
+						    ]
+						]);
             if ($this->Jobs->save($job)) {
                 $this->Flash->success(___('the job has been saved'), ['plugin' => 'Alaxos']);
                 return $this->redirect(['action' => 'view', $job->id]);
@@ -206,7 +300,8 @@ class JobsController extends AppController
         $statuses = $this->Jobs->Statuses->find('list', ['limit' => 200]);
         $dealerships = $this->Jobs->Dealerships->find('list', ['limit' => 200]);
         $services = $this->Jobs->Services->find('list', ['limit' => 200]);
-        $this->set(compact('job', 'statuses', 'dealerships', 'services'));
+        $users = $this->Jobs->Users->find('list', ['limit' => 200]);
+        $this->set(compact('job', 'statuses', 'dealerships', 'services','users'));
         $this->set('_serialize', ['job']);
     }
 

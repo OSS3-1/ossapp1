@@ -23,6 +23,13 @@
             echo '</div>';
             
             echo '<div class="form-group">';
+            echo $this->AlaxosForm->label('user_id', __('User'), ['class' => 'col-sm-2 control-label']);
+            echo '<div class="col-sm-5">';
+            echo $this->AlaxosForm->input('user_id', ['options' => $users, 'label' => false, 'class' => 'form-control']);
+            echo '</div>';
+            echo '</div>';
+            
+            echo '<div class="form-group">';
             echo $this->AlaxosForm->label('dealership_id', __('dealership_id'), ['class' => 'col-sm-2 control-label']);
             echo '<div class="col-sm-5">';
             echo $this->AlaxosForm->input('dealership_id', ['options' => $dealerships, 'label' => false, 'class' => 'form-control']);

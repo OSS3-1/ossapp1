@@ -78,7 +78,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 	Router::connect('/', ['controller' => 'Users', 'action' => 'login']);
 	Router::connect('/login', ['controller' => 'Users', 'action' => 'login']);
 	Router::connect('/logout', ['controller' => 'Users', 'action' => 'logout']);
-	Router::connect('/employees/welcome', ['controller' => 'Groups', 'action' => 'employeeWelcome']);
+	Router::connect('/getjob', ['controller' => 'Groups', 'action' => 'getJob']);
+	Router::connect('/dashboard', ['controller' => 'Pages', 'action' => 'display','dashboard']);
 	Router::connect(
 	    '/employee/joblist/:id',
 	    ['controller' => 'Groups', 'action' => 'employeeList'],

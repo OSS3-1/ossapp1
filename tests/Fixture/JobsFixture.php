@@ -19,6 +19,7 @@ class JobsFixture extends TestFixture
     public $fields = [
         'id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'autoIncrement' => true, 'precision' => null],
         'status_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'user_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'dealership_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'service_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'create_by' => ['type' => 'string', 'length' => 50, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
@@ -48,6 +49,7 @@ class JobsFixture extends TestFixture
         [
             'id' => 1,
             'status_id' => 1,
+            'user_id' => 1,
             'dealership_id' => 1,
             'service_id' => 1,
             'create_by' => 'Lorem ipsum dolor sit amet',
@@ -56,8 +58,8 @@ class JobsFixture extends TestFixture
             'start' => 'Lorem ipsum dolor sit amet',
             'end' => 'Lorem ipsum dolor sit amet',
             'time' => 'Lorem ipsum dolor sit amet',
-            'created' => '2016-07-12 17:56:30',
-            'modified' => '2016-07-12 17:56:30'
+            'created' => '2016-08-01 14:12:02',
+            'modified' => '2016-08-01 14:12:02'
         ],
     ];
 }

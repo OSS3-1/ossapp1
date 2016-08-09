@@ -193,6 +193,7 @@ Request::addDetector('tablet', function ($request) {
 Plugin::load('Migrations');
 Plugin::load('Alaxos', ['bootstrap' => true]);
 Plugin::load('Alaxos/BootstrapTheme');
+Plugin::load('CakephpJqueryFileUpload');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
@@ -221,3 +222,5 @@ Type::build('date')
     ->useImmutable();
 Type::build('datetime')
     ->useImmutable();
+
+Plugin::load('Josegonzalez/Upload');

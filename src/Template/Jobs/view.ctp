@@ -2,7 +2,9 @@
 <div class="jobs view">
 	<h2><?php echo ___('job'); ?></h2>
 	
-	<div class="panel panel-default">
+	<div class="row">
+		<div class="col-md-6">
+				<div class="panel panel-default">
 		<div class="panel-heading">
 		<?php
 		echo $this->Navbars->actionButtons(['buttons_group' => 'view', 'model_id' => $job->id]);
@@ -76,5 +78,29 @@
 			</div>
 		</div>
 	</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading"><strong>Images</strong></div>
+				<div class="panel-body">
+					<?php if (!empty($job->images)): ?>
+						<div class="row">
+						<?php foreach ($job->images as $image): ?>
+							<div class="col-xs-4 col-md-4">
+								<?= $this->Html->image("/files/images/photo/".$image->photo_dir."/thumb_".$image->photo, [
+										    "class" => "img-responsive",
+										    'url' => ['controller' => 'Images', 'action' => 'view', $image->id]
+										]);
+								?>
+								<p><?= $image->tiempo ?></p>	
+							</div>				
+						<?php endforeach; ?>
+						</div>		
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>
 	

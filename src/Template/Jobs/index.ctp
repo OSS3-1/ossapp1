@@ -1,12 +1,3 @@
-<?php
-	$date_a = new DateTime('2016-07-14 14:17:39');
-	$date_b = new DateTime('2016-07-14 15:30:40');
-	
-	$interval = date_diff($date_a,$date_b);
-	
-	echo $interval->format('%H:%I:%S');
-?>
-
 <div class="jobs index">
 	
 	<h2><?= ___('jobs'); ?></h2>
@@ -26,14 +17,9 @@
 			<tr class="sortHeader">
 				<th></th>
 				<th><?php echo $this->Paginator->sort('status_id', ___('status_id')); ?></th>
+				<th><?php echo $this->Paginator->sort('user_id', ___('user_id')); ?></th>
 				<th><?php echo $this->Paginator->sort('dealership_id', ___('dealership_id')); ?></th>
 				<th><?php echo $this->Paginator->sort('service_id', ___('service_id')); ?></th>
-				<th><?php echo $this->Paginator->sort('create_by', ___('create_by')); ?></th>
-				<th><?php echo $this->Paginator->sort('approved_by', ___('approved_by')); ?></th>
-				<th><?php echo $this->Paginator->sort('employee_assigned', ___('employee_assigned')); ?></th>
-				<th><?php echo $this->Paginator->sort('start', ___('start')); ?></th>
-				<th><?php echo $this->Paginator->sort('end', ___('end')); ?></th>
-				<th><?php echo $this->Paginator->sort('time', ___('time')); ?></th>
 				<th style="width:160px;"><?php echo $this->Paginator->sort('created', ___('created')); ?></th>
 				<th style="width:160px;"><?php echo $this->Paginator->sort('modified', ___('modified')); ?></th>
 				<th class="actions"></th>
@@ -53,42 +39,17 @@
 				</td>
 				<td>
 					<?php
+					echo $this->AlaxosForm->filterField('user_id');
+					?>
+				</td>
+				<td>
+					<?php
 					echo $this->AlaxosForm->filterField('dealership_id');
 					?>
 				</td>
 				<td>
 					<?php
 					echo $this->AlaxosForm->filterField('service_id');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('create_by');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('approved_by');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('employee_assigned');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('start');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('end');
-					?>
-				</td>
-				<td>
-					<?php
-					echo $this->AlaxosForm->filterField('time');
 					?>
 				</td>
 				<td>
@@ -118,32 +79,18 @@
 						echo $this->AlaxosForm->checkBox('Job.' . $i . '.id', array('value' => $job->id, 'class' => 'model_id'));
 						?>
 					</td>
+					
 					<td>
 						<?php echo $job->has('status') ? $this->Html->link($job->status->name, ['controller' => 'Statuses', 'action' => 'view', $job->status->id]) : ''; ?>
+					</td>
+					<td>
+						<?php echo $job->has('user') ? $this->Html->link($job->user->username, ['controller' => 'Users', 'action' => 'view', $job->user->id]) : ''; ?>
 					</td>
 					<td>
 						<?php echo $job->has('dealership') ? $this->Html->link($job->dealership->name, ['controller' => 'Dealerships', 'action' => 'view', $job->dealership->id]) : ''; ?>
 					</td>
 					<td>
 						<?php echo $job->has('service') ? $this->Html->link($job->service->name, ['controller' => 'Services', 'action' => 'view', $job->service->id]) : ''; ?>
-					</td>
-					<td>
-						<?php echo h($job->create_by) ?>
-					</td>
-					<td>
-						<?php echo h($job->approved_by) ?>
-					</td>
-					<td>
-						<?php echo h($job->employee_assigned) ?>
-					</td>
-					<td>
-						<?php echo h($job->start) ?>
-					</td>
-					<td>
-						<?php echo h($job->end) ?>
-					</td>
-					<td>
-						<?php echo h($job->time) ?>
 					</td>
 					<td>
 						<?php echo h($job->to_display_timezone('created')); ?>

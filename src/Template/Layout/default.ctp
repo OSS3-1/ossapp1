@@ -14,12 +14,19 @@
 	  echo $this->AlaxosHtml->includeAlaxosCSS(['block' => false]);
 		echo $this->AlaxosHtml->includeBootstrapCSS(['block' => false]);
 	?>
+	<?= $this->Html->css('pe-icon-7-stroke') ?>
+	<?= $this->Html->css('helper') ?>
+	<?= $this->Html->css('/bower_components/animate.css/animate.min') ?>
+	<?= $this->Html->css('main') ?>
 	
 	<?= $this->AlaxosHtml->includeAlaxosJQuery(['block' => false]) ?>
 	<?= $this->AlaxosHtml->includeAlaxosBootstrapJS(['block' => false]) ?>
 	<?= $this->Html->script('datepicker/bootstrap-datepicker.min') ?>
 	<?= $this->Html->script('alaxos/alaxos.js') ?>
 	<?= $this->Html->script('timer.jquery.min') ?>
+	<?= $this->Html->script('jquery.canvasResize') ?>
+	<?= $this->Html->script('canvasResize') ?>
+	<?= $this->Html->script('/bower_components/wow/dist/wow.min') ?>
 	<script src="https://use.fontawesome.com/bd947468f1.js"></script>
 </head>
 <body>
@@ -27,18 +34,10 @@
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-
- <?php 
-	 if ($current_user['role'] == 'admin'){
-		 echo $this->element('menu_admin');
-	 } elseif ($current_user['role'] == 'employee') {
-		 echo $this->element('menu_employee');
-	 } elseif ($current_user['role'] == 'requester') {
-		 echo $this->element('menu_requester');
-	 }
-	?>
-
+	<?= $this->element('menu_top');?>
+	<?= $this->element('menu_footer');?>
 	<?= $this->Flash->render() ?>
+	<?= $this->Flash->render('auth') ?>
 	
 	<section class="main">
 		<div class="container">
@@ -49,6 +48,9 @@
 	</section>
 	
 <script>
+	
+	new WOW().init();
+	
   $(function(){
     // bind change event to select
     $('.dynamic_select').on('change', function () {
@@ -59,11 +61,29 @@
         return false;
     });
   });
+  
   $('#timer').timer({
     seconds: 0<?=$this->fetch('time');?>, //Specify start time in seconds
     format: '%H:%M:%S'
 	});
+	
+	$(document).ready(function() {
+		    $('#loader').hide();
+		
+		    $('#send').submit(function() 
+		    {
+		        $('#loader').show();
+		    })
+		    		    
+		    $('.photoUpload').change(function(e) {
+			    var file = e.target.files[0];
+			    alert(file);
+			    console.log(file);
+		    });
+		});
+		
 </script>
+
 
 
 </body>

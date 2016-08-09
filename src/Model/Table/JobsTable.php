@@ -11,8 +11,10 @@ use Cake\Validation\Validator;
  * Jobs Model
  *
  * @property \Cake\ORM\Association\BelongsTo $Statuses
+ * @property \Cake\ORM\Association\BelongsTo $Users
  * @property \Cake\ORM\Association\BelongsTo $Dealerships
  * @property \Cake\ORM\Association\BelongsTo $Services
+ * @property \Cake\ORM\Association\HasMany $Images
  */
 class JobsTable extends Table
 {
@@ -39,6 +41,10 @@ class JobsTable extends Table
             'foreignKey' => 'status_id',
             'joinType' => 'INNER'
         ]);
+        $this->belongsTo('Users', [
+            'foreignKey' => 'user_id',
+            'joinType' => 'INNER'
+        ]);
         $this->belongsTo('Dealerships', [
             'foreignKey' => 'dealership_id',
             'joinType' => 'INNER'
@@ -47,9 +53,8 @@ class JobsTable extends Table
             'foreignKey' => 'service_id',
             'joinType' => 'INNER'
         ]);
-        $this->belongsTo('Users', [
-            'foreignKey' => 'user_id',
-            'joinType' => 'INNER'
+        $this->hasMany('Images', [
+            'foreignKey' => 'job_id'
         ]);
     }
 
@@ -96,9 +101,9 @@ class JobsTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['status_id'], 'Statuses'));
+        $rules->add($rules->existsIn(['user_id'], 'Users'));
         $rules->add($rules->existsIn(['dealership_id'], 'Dealerships'));
         $rules->add($rules->existsIn(['service_id'], 'Services'));
-        $rules->add($rules->existsIn(['user_id'], 'Users'));
         return $rules;
     }
 }
